@@ -1,3 +1,4 @@
+@import "responsible.scss";
 html {
     box-sizing: border-box;
     
@@ -30,7 +31,7 @@ html {
   }
 
   main {
-    background-color: gray;
+    background-color: white;
     width: 360px;
     height: 512px;
 
@@ -122,7 +123,9 @@ footer {
     @include font;
     &__menu {
     list-style: none;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
    }
     &__menu--li{
     display: inline-block;
@@ -133,7 +136,7 @@ footer {
   
     
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 10px;
       font-weight: bolder;
       color: yellow;
   } 
@@ -144,6 +147,7 @@ footer {
 
   .gora {
     display: flex;
+    justify-content: space-between;
   }
 
   .uwaga {
@@ -156,19 +160,19 @@ footer {
   }
 
   .contact {
+    
     transform: rotate(0deg);
-    animation: ani 0.5s ease 1s infinite alternate none;
+    animation: ani 1s ease 1s infinite alternate none;
   }
   
   @keyframes ani {
     0% {
-      rotate: 35deg; } }
+      rotate: 10deg; } }
   
-  .tel {
-    margin-right: 1rem;
-  }
+  
 
   .billboard {
+    opacity: 0.7;
     color: yellow;
     font-weight: bolder;
     font-size: 1rem;
