@@ -1,0 +1,29 @@
+{
+    "name": "Elektryk",
+    "version": "1.0.0",
+    "description": "Instalacje elektryczne",
+    "main": "index.js",
+    "scripts": {
+      "sass": "npx node-sass -w style.scss style.css",
+      "cow": "cowsay szczęść Boże",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Paweleon/Church.git"
+    },
+    "author": "Paweł Kuniec",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Paweleon/Church/issues"
+    },
+    "homepage": "https://github.com/Paweleon/Church#readme",
+    "dependencies": {
+      "cowsay": "^1.5.0",
+      "react": "^18.2.0"
+    },
+    "devDependencies": {
+      "sass": "^1.52.3"
+    }
+  }
+  
