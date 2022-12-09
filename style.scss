@@ -8,9 +8,14 @@ html {
     box-sizing: inherit;
   }
 
+  @font-face {
+    font-family: "Black Ops One', sans-serif";
+    src: url("https://fonts.googleapis.com/css?family=Black+Ops+One&subset=latin,latin-ext");
+  }
+
   @mixin font {
     font-family: 'Black Ops One', sans-serif; 
-    font-family: 'Arbutus', sans-serif;
+   
   }
 
   body {
