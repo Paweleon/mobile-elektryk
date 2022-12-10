@@ -5,42 +5,30 @@
 
   header {
     width: 1335px !important;
-    height: 190px !important;
   }
 
   main {
     width: 1335px !important;
-    height: 512px !important;
   }
 
   footer {
     width: 1335px !important;
-    height: 95px !important;
   }
+
+  .tel {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+/*HEADER*/
+
+ .start {
+    width: 1335px !important;
+ }
 
   .el {
     width: 670px !important;
-    height: 95px !important;
     font-size: 2.5rem !important;
-  }
-
-  .start {
-    width: 1335px !important;
-    height: 95px;
-  }
-  .section__main {
-    width: 1335px !important;
-    height: 256px;
-  }
-
-  .section__main {
-    width: 1335px !important;
-    height: 256px;
-    justify-content: center;
-  }
-
-  .Section__area {
-    width: 1335px !important;
   }
 
   .navigation {
@@ -58,16 +46,18 @@
   }
 
   .link:hover {
-    font-size: 23px !important;
+    font-size:23px !important;
+  }
+
+  .billboard {
+    font-size: 20px !important;
   }
 
   .mainheader {
     font-size: 20px !important;
   }
 
-  .paragraph__main {
-    font-size: 3rem !important;
-  }
+ /*FOOTER*/
 
   .botton {
     width: 670px !important;
@@ -75,8 +65,19 @@
     position: relative !important;
   }
 
-  .billboard {
-    font-size: 20px !important;
+  /*main*/
+
+  .section__main {
+    width: 1335px !important;
+    justify-content: center;
+  }
+
+ .paragraph__main {
+    font-size: 3rem !important;
+  }
+
+  .section__area {
+    width: 1335px !important;
   }
 
   .area__towns {
@@ -89,11 +90,6 @@
 
   .paragraph__contact {
     font-size: 2rem !important;
-  }
-
-  .tel {
-    width: 50px;
-    height: 50px;
-  }
+  } 
 
 }

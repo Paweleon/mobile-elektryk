@@ -18,38 +18,47 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: white; 
 }
 
 header {
-  background-color: black;
   width: 360px;
   height: 190px;
   padding: 5px;
+  background-color: black;
 }
 
 main {
-  background-color: white;
   width: 360px;
   height: 512px;
   padding: 5px;
 }
 
 footer {
+  width: 360px;
+  height: 110px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
-  padding: 5px;
-  background-color: black;
-  width: 360px;
-  height: 95px;
+  background-color: black; 
 }
 
-.el {
-  width: 180px;
-  height: 95px;
-  color: yellow;
-  font-size: 1.5rem;
+.tel {
+  width: 30px;
+  height: 30px;
+}
+
+h3 {
   @include font;
+  font-size: 3rem;
+}
+
+/*HEADER*/
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .start {
@@ -57,57 +66,12 @@ footer {
   height: 95px;
 }
 
-.section__main {
-  width: 360px;
-  height: 256px;
-  display: flex;
-  align-items: center;
-}
-
-.paragraph__main {
-  text-align: center;
-  font-size: 1.5rem;
-  @include font;
-}
-
-.Section__area {
-  width: 360px;
-  height: 256px;
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.area {
-  display: inline;
-  &__towns {
-    @include font;
-    transform: rotate(45deg);
-    display: inline-block;
-    font-size: 15px;
-  }
-}
-
-.botton {
+.el {
   width: 180px;
-  height: 96px;
+  height: 95px;
   @include font;
-  font-size: 10px;
+  font-size: 1.5rem; 
   color: yellow;
-  text-align: end;
-}
-
-.mainheader {
-  text-align: center;
-  @include font;
-  font-size: 1rem;
-  color: yellow;
-}
-
-h3 {
-  @include font;
-  font-size: 3rem;
 }
 
 .navigation {
@@ -134,46 +98,83 @@ h3 {
 }
 
 .link:hover {
-  font-size: 3rem;
+  font-size: 13px;
+}
+.contact {
+  transform: rotate(0deg);
+  animation: contact 1s ease 1s infinite alternate none;
 }
 
-.gora {
+.billboard {
+  @include font; 
+  font-size: 1rem;
+  font-weight: bolder;
+  color: yellow;
+  animation: animacja 5s ease 1s infinite alternate none;
+}
+
+.mainheader {
+  text-align: center;
+  @include font;
+  font-size: 1rem;
+  color: yellow;
+}
+
+/*Footer*/
+
+.botton {
+  width: 180px;
+  height: 96px;
+  text-align: end;
+  @include font;
+  font-size: 10px;
+  color: yellow; 
+}
+
+/*MAIN*/
+
+.section__main {
+  width: 360px;
+  height: 256px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph__main {
+  text-align: center;
+  @include font;
+  font-size: 1.5rem; 
 }
 
 .uwaga {
-  transform: rotate(35deg);
   margin: 2rem;
+  transform: rotate(35deg); 
 }
 
 .uwaga__one {
   margin: 2rem;
 }
 
-.contact {
-  transform: rotate(0deg);
-  animation: ani 1s ease 1s infinite alternate none;
+.section__area {
+  width: 360px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; 
 }
 
-@keyframes ani {
-  0% {
-    rotate: 10deg;
-  }
+.area {
+  display: inline;
+  &__towns {
+    @include font;
+    font-size: 15px;
+    display: inline-block;
+    transform: rotate(45deg);
+    }  
 }
 
-.billboard {
-  color: yellow;
-  font-weight: bolder;
-  font-size: 1rem;
-  @include font;
-  animation: animacja 5s ease 1s infinite alternate none;
-}
-
-.name:hover {
-  animation-play-state: paused;
-}
+/*OFFER*/
 
 .section__offer {
   display: flex;
@@ -198,15 +199,16 @@ h3 {
 
 .paragraph__contact {
   text-align: center;
-  font-size: 1rem;
   @include font;
+  font-size: 1rem;  
 }
 
-/*koniec contact*/
+/*ANNIMACJE*/
 
-.tel {
-  width: 30px;
-  height: 30px;
+@keyframes contact {
+  0% {
+    rotate: 10deg;
+  }
 }
 
 @keyframes animacja {
@@ -230,6 +232,5 @@ h3 {
     margin-left: 60%;
     background: rgb(10, 12, 10);
   }
-
 
 }

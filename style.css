@@ -2,30 +2,20 @@
   body {
     width: 1340px; }
   header {
-    width: 1335px !important;
-    height: 190px !important; }
+    width: 1335px !important; }
   main {
-    width: 1335px !important;
-    height: 512px !important; }
+    width: 1335px !important; }
   footer {
-    width: 1335px !important;
-    height: 95px !important; }
+    width: 1335px !important; }
+  .tel {
+    width: 50px !important;
+    height: 50px !important; }
+  /*HEADER*/
+  .start {
+    width: 1335px !important; }
   .el {
     width: 670px !important;
-    height: 95px !important;
     font-size: 2.5rem !important; }
-  .start {
-    width: 1335px !important;
-    height: 95px; }
-  .section__main {
-    width: 1335px !important;
-    height: 256px; }
-  .section__main {
-    width: 1335px !important;
-    height: 256px;
-    justify-content: center; }
-  .Section__area {
-    width: 1335px !important; }
   .navigation {
     width: 670px !important; }
     .navigation__menu {
@@ -36,25 +26,29 @@
     font-size: 20px !important; }
   .link:hover {
     font-size: 23px !important; }
+  .billboard {
+    font-size: 20px !important; }
   .mainheader {
     font-size: 20px !important; }
-  .paragraph__main {
-    font-size: 3rem !important; }
+  /*FOOTER*/
   .botton {
     width: 670px !important;
     font-size: 20px !important;
     position: relative !important; }
-  .billboard {
-    font-size: 20px !important; }
+  /*main*/
+  .section__main {
+    width: 1335px !important;
+    justify-content: center; }
+  .paragraph__main {
+    font-size: 3rem !important; }
+  .section__area {
+    width: 1335px !important; }
   .area__towns {
     font-size: 20px !important; }
   .li__offer {
     font-size: 2rem !important; }
   .paragraph__contact {
-    font-size: 2rem !important; }
-  .tel {
-    width: 50px;
-    height: 50px; } }
+    font-size: 2rem !important; } }
 
 html {
   box-sizing: border-box; }
@@ -72,80 +66,48 @@ body {
   background-color: white; }
 
 header {
-  background-color: black;
   width: 360px;
   height: 190px;
-  padding: 5px; }
+  padding: 5px;
+  background-color: black; }
 
 main {
-  background-color: white;
   width: 360px;
   height: 512px;
   padding: 5px; }
 
 footer {
+  width: 360px;
+  height: 110px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
-  padding: 5px;
-  background-color: black;
-  width: 360px;
-  height: 95px; }
+  background-color: black; }
 
-.el {
-  width: 180px;
-  height: 95px;
-  color: yellow;
-  font-size: 1.5rem;
-  font-family: "Black Ops One", sans-serif; }
+.tel {
+  width: 30px;
+  height: 30px; }
+
+h3 {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 3rem; }
+
+/*HEADER*/
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 .start {
   width: 369px;
   height: 95px; }
 
-.section__main {
-  width: 360px;
-  height: 256px;
-  display: flex;
-  align-items: center; }
-
-.paragraph__main {
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Black Ops One", sans-serif; }
-
-.Section__area {
-  width: 360px;
-  height: 256px;
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-  flex-direction: column; }
-
-.area {
-  display: inline; }
-  .area__towns {
-    font-family: "Black Ops One", sans-serif;
-    transform: rotate(45deg);
-    display: inline-block;
-    font-size: 15px; }
-
-.botton {
+.el {
   width: 180px;
-  height: 96px;
+  height: 95px;
   font-family: "Black Ops One", sans-serif;
-  font-size: 10px;
-  color: yellow;
-  text-align: end; }
-
-.mainheader {
-  text-align: center;
-  font-family: "Black Ops One", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: yellow; }
-
-h3 {
-  font-family: "Black Ops One", sans-serif;
-  font-size: 3rem; }
 
 .navigation {
   width: 180px;
@@ -167,38 +129,70 @@ h3 {
   color: yellow; }
 
 .link:hover {
-  font-size: 3rem; }
+  font-size: 13px; }
 
-.gora {
+.contact {
+  transform: rotate(0deg);
+  animation: contact 1s ease 1s infinite alternate none; }
+
+.billboard {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: yellow;
+  animation: animacja 5s ease 1s infinite alternate none; }
+
+.mainheader {
+  text-align: center;
+  font-family: "Black Ops One", sans-serif;
+  font-size: 1rem;
+  color: yellow; }
+
+/*Footer*/
+.botton {
+  width: 180px;
+  height: 96px;
+  text-align: end;
+  font-family: "Black Ops One", sans-serif;
+  font-size: 10px;
+  color: yellow; }
+
+/*MAIN*/
+.section__main {
+  width: 360px;
+  height: 256px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  align-items: center; }
+
+.paragraph__main {
+  text-align: center;
+  font-family: "Black Ops One", sans-serif;
+  font-size: 1.5rem; }
 
 .uwaga {
-  transform: rotate(35deg);
-  margin: 2rem; }
+  margin: 2rem;
+  transform: rotate(35deg); }
 
 .uwaga__one {
   margin: 2rem; }
 
-.contact {
-  transform: rotate(0deg);
-  animation: ani 1s ease 1s infinite alternate none; }
+.section__area {
+  width: 360px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
 
-@keyframes ani {
-  0% {
-    rotate: 10deg; } }
+.area {
+  display: inline; }
+  .area__towns {
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    transform: rotate(45deg); }
 
-.billboard {
-  color: yellow;
-  font-weight: bolder;
-  font-size: 1rem;
-  font-family: "Black Ops One", sans-serif;
-  animation: animacja 5s ease 1s infinite alternate none; }
-
-.name:hover {
-  animation-play-state: paused; }
-
+/*OFFER*/
 .section__offer {
   display: flex;
   flex-direction: column;
@@ -218,13 +212,13 @@ h3 {
 
 .paragraph__contact {
   text-align: center;
-  font-size: 1rem;
-  font-family: "Black Ops One", sans-serif; }
+  font-family: "Black Ops One", sans-serif;
+  font-size: 1rem; }
 
-/*koniec contact*/
-.tel {
-  width: 30px;
-  height: 30px; }
+/*ANNIMACJE*/
+@keyframes contact {
+  0% {
+    rotate: 10deg; } }
 
 @keyframes animacja {
   0% {
