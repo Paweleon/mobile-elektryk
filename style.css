@@ -37,18 +37,24 @@
   .link:hover {
     font-size: 23px !important; }
   .mainheader {
-    font-size: 20px  !important; }
+    font-size: 20px !important; }
   .paragraph__main {
-    font-size: 3rem  !important; }
+    font-size: 3rem !important; }
   .botton {
     width: 670px !important;
     font-size: 20px !important;
-    position: relative !important;
-    left: 200px !important; }
+    position: relative !important; }
   .billboard {
-    font-size: 20px  !important; }
+    font-size: 20px !important; }
   .area__towns {
-    font-size: 20px !important; } }
+    font-size: 20px !important; }
+  .li__offer {
+    font-size: 2rem !important; }
+  .paragraph__contact {
+    font-size: 2rem !important; }
+  .tel {
+    width: 50px;
+    height: 50px; } }
 
 html {
   box-sizing: border-box; }
@@ -68,16 +74,19 @@ body {
 header {
   background-color: black;
   width: 360px;
-  height: 190px; }
+  height: 190px;
+  padding: 5px; }
 
 main {
   background-color: white;
   width: 360px;
-  height: 512px; }
+  height: 512px;
+  padding: 5px; }
 
 footer {
   display: flex;
   flex-direction: row;
+  padding: 5px;
   background-color: black;
   width: 360px;
   height: 95px; }
@@ -87,7 +96,7 @@ footer {
   height: 95px;
   color: yellow;
   font-size: 1.5rem;
-  font-family: 'Black Ops One', sans-serif; }
+  font-family: "Black Ops One", sans-serif; }
 
 .start {
   width: 369px;
@@ -102,7 +111,7 @@ footer {
 .paragraph__main {
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'Black Ops One', sans-serif; }
+  font-family: "Black Ops One", sans-serif; }
 
 .Section__area {
   width: 360px;
@@ -115,7 +124,7 @@ footer {
 .area {
   display: inline; }
   .area__towns {
-    font-family: 'Black Ops One', sans-serif;
+    font-family: "Black Ops One", sans-serif;
     transform: rotate(45deg);
     display: inline-block;
     font-size: 15px; }
@@ -123,24 +132,26 @@ footer {
 .botton {
   width: 180px;
   height: 96px;
-  font-family: 'Black Ops One', sans-serif;
+  font-family: "Black Ops One", sans-serif;
   font-size: 10px;
-  color: yellow; }
+  color: yellow;
+  text-align: end; }
 
 .mainheader {
   text-align: center;
-  font-family: 'Black Ops One', sans-serif;
+  font-family: "Black Ops One", sans-serif;
   font-size: 1rem;
   color: yellow; }
 
 h3 {
-  font-family: 'Black Ops One', sans-serif;
-  font-size: 4rem; }
+  font-family: "Black Ops One", sans-serif;
+  font-size: 3rem; }
 
 .navigation {
   width: 180px;
   height: 95px;
-  font-family: 'Black Ops One', sans-serif; }
+  font-family: "Black Ops One", sans-serif;
+  text-align: end; }
   .navigation__menu {
     list-style: none;
     display: flex;
@@ -160,6 +171,7 @@ h3 {
 
 .gora {
   display: flex;
+  flex-direction: row;
   justify-content: space-between; }
 
 .uwaga {
@@ -178,16 +190,41 @@ h3 {
     rotate: 10deg; } }
 
 .billboard {
-  opacity: 0.7;
   color: yellow;
   font-weight: bolder;
   font-size: 1rem;
-  font-family: 'Black Ops One', sans-serif;
-  transform: perspective(23rem);
+  font-family: "Black Ops One", sans-serif;
   animation: animacja 5s ease 1s infinite alternate none; }
 
 .name:hover {
   animation-play-state: paused; }
+
+.section__offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.li__offer {
+  display: inline;
+  font-family: "Black Ops One", sans-serif;
+  font-size: 1rem;
+  text-decoration: underline; }
+
+/*Contact*/
+.section__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.paragraph__contact {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Black Ops One", sans-serif; }
+
+/*koniec contact*/
+.tel {
+  width: 30px;
+  height: 30px; }
 
 @keyframes animacja {
   0% {

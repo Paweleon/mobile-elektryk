@@ -1,35 +1,27 @@
-@media screen and (min-width:900px){
+@media screen and (min-width: 900px) {
+  body {
+    width: 1340px;
+  }
 
-    body {
-        width: 1340px;
-    }
-
-    
   header {
-    
     width: 1335px !important;
     height: 190px !important;
-
   }
 
   main {
-   
     width: 1335px !important;
     height: 512px !important;
+  }
 
-}
-
-footer {
-    
+  footer {
     width: 1335px !important;
     height: 95px !important;
-}
+  }
 
-.el {
+  .el {
     width: 670px !important;
     height: 95px !important;
     font-size: 2.5rem !important;
-    
   }
 
   .start {
@@ -39,58 +31,69 @@ footer {
   .section__main {
     width: 1335px !important;
     height: 256px;
-    
   }
 
   .section__main {
     width: 1335px !important;
     height: 256px;
     justify-content: center;
-    
   }
 
   .Section__area {
     width: 1335px !important;
   }
 
-  .navigation {   
+  .navigation {
     width: 670px !important;
+   
     &__menu {
       display: flex !important;
       flex-direction: row !important;
-    justify-content: space-evenly !important;  
+      justify-content: space-evenly !important; 
     }
-    }
+  }
 
-    .link {
+  .link {
+    font-size: 20px !important;
+  }
 
-        font-size: 20px !important;     
-    } 
-    
-    .link:hover { 
-        font-size: 23px !important;
-    }
+  .link:hover {
+    font-size: 23px !important;
+  }
 
-    .mainheader {
-        font-size: 20px  !important; 
-      } 
+  .mainheader {
+    font-size: 20px !important;
+  }
 
-   .paragraph__main {  
-        font-size: 3rem  !important; 
-      }
-    
-      .botton {
-        width: 670px !important;
-        font-size: 20px !important;
-        position: relative !important;
-    left: 200px !important;
-        }
+  .paragraph__main {
+    font-size: 3rem !important;
+  }
 
-    .billboard {
-        font-size: 20px  !important;            
-        } 
+  .botton {
+    width: 670px !important;
+    font-size: 20px !important;
+    position: relative !important;
+  }
 
-    .area__towns {
-        font-size: 20px !important;
-    }
-    }
+  .billboard {
+    font-size: 20px !important;
+  }
+
+  .area__towns {
+    font-size: 20px !important;
+  }
+
+  .li__offer{
+    font-size: 2rem !important; 
+  }
+
+  .paragraph__contact {
+    font-size: 2rem !important;
+  }
+
+  .tel {
+    width: 50px;
+    height: 50px;
+  }
+
+}
