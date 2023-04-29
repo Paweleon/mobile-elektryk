@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Black Ops One", sans-serif;
   display: grid;
-  grid-template-columns: repeat(4, 25vw);
+  grid-template-columns: repeat(4, 24vw);
   grid-template-rows: repeat(13, 10vh); }
 
 /*possition*/
