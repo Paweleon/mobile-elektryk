@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Black Ops One", sans-serif;
   display: grid;
-  grid-template-columns: repeat(4, 24vw);
+  grid-template-columns: repeat(4, 25vw);
   grid-template-rows: repeat(13, 10vh); }
 
 /*possition*/
@@ -43,7 +43,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: black;
-  grid-row: 12 / 14;
+  grid-row: 14 / 15;
   flex-direction: row; }
 
 .mainheader {
@@ -111,6 +111,10 @@ h2 {
   font-size: 2vmin;
   color: yellow; }
 
+.facebook {
+  color: blue;
+  text-decoration: none; }
+
 /*MAIN*/
 .section__main {
   display: flex;
@@ -130,6 +134,9 @@ h2 {
 
 .attention__one {
   margin: 4vw; }
+
+.area__title {
+  margin: 2vw; }
 
 .section__area {
   display: flex;
