@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Black Ops One", sans-serif;
   display: grid;
-  grid-template-columns: repeat(4, 24vw);
+  grid-template-columns: repeat(4, 24, 5vw);
   grid-template-rows: repeat(13, 10vh); }
 
 /*possition*/
@@ -34,7 +34,8 @@ main {
   align-items: center;
   background-color: black;
   grid-row: 5 / 12;
-  background-color: white; }
+  background-color: white;
+  justify-content: center; }
 
 footer {
   grid-column: 1 / 5;
@@ -106,7 +107,7 @@ h2 {
 
 /*Footer*/
 .botton {
-  width: 50vw;
+  width: 45vw;
   text-align: end;
   font-size: 2vmin;
   color: yellow; }
