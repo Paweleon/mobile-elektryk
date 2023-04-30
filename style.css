@@ -15,7 +15,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 24, 5vw);
   grid-template-rows: repeat(13, 10vh);
-  cursor: url("icon.png"), pointer; }
+  cursor: url("icon.png"), pointer;
+  justify-content: center; }
 
 /*possition*/
 header {
