@@ -14,7 +14,8 @@ body {
   font-family: "Black Ops One", sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 24, 5vw);
-  grid-template-rows: repeat(13, 10vh); }
+  grid-template-rows: repeat(13, 10vh);
+  cursor: url("icon.png"), pointer; }
 
 /*possition*/
 header {
@@ -45,7 +46,8 @@ footer {
   align-items: center;
   background-color: black;
   grid-row: 14 / 15;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: center; }
 
 .mainheader {
   text-align: center;
@@ -107,7 +109,7 @@ h2 {
 
 /*Footer*/
 .botton {
-  width: 45vw;
+  width: 50vw;
   text-align: end;
   font-size: 2vmin;
   color: yellow; }
